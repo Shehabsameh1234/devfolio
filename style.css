@@ -1,0 +1,363 @@
+body {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-family {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-bg {
+    background-color: #191919cf;
+}
+
+.line1 {
+    border: #ffffff solid 1.5px;
+    width: 0%;
+    margin-left: .4rem;
+    opacity: 0;
+    transition: all .3s;
+}
+
+li:hover .line1 {
+    width: 70%;
+    opacity: 1;
+}
+
+.line {
+    border: #ffffff solid 1.5px;
+    width: 70%;
+    margin-left: .4rem;
+}
+
+.back {
+    background-attachment: fixed;
+    background-image: url(img/hero-bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-animation:after {
+    content: "";
+    display: block;
+    text-align: center;
+    animation: shehab 5s infinite;
+}
+
+@keyframes shehab {
+    0% {
+        content: "f|";
+    }
+
+    2.5% {
+        content: "fr|";
+    }
+
+    5% {
+        content: "fre|";
+    }
+
+    7.5% {
+        content: "free|";
+    }
+
+    10% {
+        content: "freel|";
+    }
+
+    12.5% {
+        content: "freela|";
+    }
+
+    15% {
+        content: "freelan|";
+    }
+
+    17.5% {
+        content: "freelanc|";
+    }
+
+    20% {
+        content: "freelance|";
+    }
+
+    22.5% {
+        content: "freelancer|";
+    }
+
+    25% {
+        content: "freelancer";
+    }
+
+    27.5% {
+        content: "freelancer|";
+    }
+
+    30% {
+        content: "freelance|";
+    }
+
+    32.5% {
+        content: "freelanc|";
+    }
+
+    35% {
+        content: "freelan|";
+    }
+
+    37.5% {
+        content: "freela|";
+    }
+
+    40% {
+        content: "freel|";
+    }
+
+    42.5% {
+        content: "free|";
+    }
+
+    45% {
+        content: "fre|";
+    }
+
+    47.5% {
+        content: "fr|";
+    }
+
+    50% {
+        content: "f|";
+    }
+
+    52.5% {
+        content: "d|";
+    }
+
+    55% {
+        content: "de|";
+    }
+
+    57.5% {
+        content: "des|";
+    }
+
+    60% {
+        content: "desi|";
+    }
+
+    62.5% {
+        content: "desig|";
+    }
+
+    67.5% {
+        content: "design|";
+    }
+
+    70% {
+        content: "designe|";
+    }
+
+    72.5% {
+        content: "designer|";
+    }
+
+    75% {
+        content: "designer";
+    }
+
+    77.5% {
+        content: "designer|";
+    }
+
+    80% {
+        content: "designe|";
+    }
+
+    82.5% {
+        content: "design|";
+    }
+
+    85% {
+        content: "desig|";
+    }
+
+    87.5% {
+        content: "desi|";
+    }
+
+    90% {
+        content: "des|";
+    }
+
+    92.5% {
+        content: "de|";
+    }
+
+    95% {
+        content: "d|";
+    }
+
+    97.5% {
+        content: "d|";
+    }
+
+    100% {
+        content: "f";
+    }
+}
+
+.underline::after {
+    content: "";
+    display: block;
+    border: #0078ff 2px solid;
+    width: 20%;
+    margin-top: 5px;
+}
+
+.p-about {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+
+.underline1::after {
+    content: "";
+    display: block;
+    border: #0078ff 3px solid;
+    width: 8%;
+    margin: 12px auto;
+}
+
+.icon-serv {
+    border: #007bff solid 5px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+}
+
+.back2 {
+    background-attachment: fixed;
+    background-image: url(img/post-3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.overblue {
+    background-color: #007bffa0;
+    width: 100;
+    height: 100%;
+    padding: 120px;
+}
+
+.icon-med {
+    border: #d4d4d4 solid 10px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+
+.trans {
+    transition: all .6s;
+}
+
+.scale:hover img {
+    transform: scale(1.3);
+}
+
+.icon-por {
+    border: #007bff solid 3px;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 40px;
+}
+
+.back3 {
+    background-attachment: fixed;
+    background-image: url(img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.overblue1 {
+    background-color: #007bffa0;
+    width: 100;
+    height: 100%;
+    padding: 120px;
+}
+
+.margin-img {
+    margin-bottom: 260px;
+
+}
+
+.w-carousel {
+
+    width: 100%;
+}
+
+
+@media (min-width: 321px)and (max-width: 480px) {
+
+    .w-carousel  img{
+        width: 90%;  
+    }
+    .font{
+        font-size: 16px;
+    }
+
+}
+
+
+
+.round {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+
+.width-blog {
+    width: 2rem;
+}
+
+.pos {
+    position: relative;
+    bottom: 20px;
+}
+
+.underline2::after {
+    content: "";
+    display: block;
+    border: #0078ff 2px solid;
+    width: 23%;
+    margin-top: 10px;
+}
+
+.icon-footer {
+    border: #007bff solid 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+}
+
+.overblue2 {
+    background-color: #007bffa0;
+    width: 100;
+    height: 100%;
+    padding: 120px;
+}
+
+.bg-copy {
+    background-color: #0062d3;
+}
+
+
+
